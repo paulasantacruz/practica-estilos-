@@ -1,0 +1,41 @@
+ body {
+     background-color: rgb(161, 230, 230);
+ }
+ 
+ .header {
+     display: flex;
+     justify-content: space-between;
+     border: 1px solid greenyellow;
+     height: 10vh
+ }
+ 
+ .main {
+     border: 1px solid greenyellow;
+     height: 80vh
+ }
+ 
+ .footer {
+     border: 1px solid greenyellow;
+     height: 10vh;
+ }
+ 
+ .border {
+     border: 1px solid blue;
+ }
+ 
+ .background {
+     background-color: orangered;
+ }
+ 
+ .menuprincipal {
+     width: 30vw;
+ }
+ 
+ .menu1 {
+     display: flex;
+     justify-content: space-around;
+ }
+ 
+ .item {
+     list-style: none;
+ }
