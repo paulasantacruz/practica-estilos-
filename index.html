@@ -8,9 +8,7 @@
         </Meta:name="description" content="contenido prueva">
         <link rel="shortcut icon" href="img/descarga.jpeg" type="image/x-icon">
         <link rel="stylesheet" href="index.css">
-</head>
-
-<body>
+    </head>
     <header class="header background">
         <article class="border">
             logo
@@ -41,8 +39,8 @@
         </nav>
     </header>
 
-    <main class="main">
-        <section class="encabezado border">
+    <main class="main fondo">
+        <section class="encabezado border fondo">
             <h1> encabezado </h1>
             <h2> encabezado </h2>
             <h3> encabezado </h3>
@@ -92,6 +90,157 @@
                 <dl> 2 item </dt>
                     <dt> 3 item </dt>
                     </dt>
+        </section>
+        <section>
+            <h1>tablas</h1>
+            <table>
+                <caption class="border"> titulo tabla</caption>
+                <thead>
+                    <tr>
+                        <th class="border">hora</th>
+                        <th class="border">lunes</th>
+                        <th class="border"> martes</th>
+                        <th class="border"> miercoles</th>
+                        <th class="border"> jueves</th>
+                        <th class="border"> viernes</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="border">7:00 - 9:000</td>
+                        <td class="border" rowspan="2">etica</td>
+                        <td class="border"> algoritmo</td>
+                        <td class="border"> diseño wed</td>
+                        <td class="border"> base de datos</td>
+                        <td class="border" rowspan="2"> matematocas</td>
+
+
+
+                    </tr>
+
+                    <tr>
+                        <td class="border">7:00 - 9:000</td>
+                        <td class="border"> algoritmo</td>
+                        <td class="border"> diseño wed</td>
+                        <td class="border"> base de datos</td>
+
+                    </tr>
+
+
+                    <tr>
+                        <td class="border" colspan="6">descanso</td>
+                    </tr>
+                    <td class="border">8:00-12:00</td>
+                    <td class="border">matematicas</td>
+                    <td class="border"> algebra</td>
+                    <td class="border"> diseño wed</td>
+                    <td class="border"> algoritmos</td>
+                    <td class="border"> moviles</td>
+                    </tr>
+                </tbody>
+                <tfooter>
+                    <tr>
+                        <td class="border">8:00-12:00</td>
+                        <td class="border">matematicas</td>
+                        <td class="border"> algebra</td>
+                        <td class="border"> diseño wed</td>
+                        <td class="border"> algoritmos</td>
+                        <td class="border"> moviles</td>
+                    </tr>
+                </tfooter>
+            </table>
+        </section>
+        <section class="form">
+            <h1> formulario</h1>
+            <div>
+                <label for="NOMBRE">IGRESA NOMBRE</label><br>
+                <input id="nombre" type="text" name="nombre" placeholder="ingrese su nombre">
+            </div>
+            <div>
+                <label for="APELLIDO">INGRESE SU APELLIDO </label><br>
+                <input id="APELLIDO" type="text">
+            </div>
+            <div>
+                <fieldset>
+                    <legend>seleccione genero</legend>
+                    <input type="radio" name="genero" value="masculino"> masculino
+                    <input type="radio" name="genero" value="femenino"> femenino
+                    <input type="radio" name="genero" value="no definido"> no definido
+                </fieldset>
+            </div>
+            <div>
+                <fieldset>
+                    <legend>seleccione genero</legend>
+                    <input type="checkbox" name="basket" value="basket"> basket
+                    <input type="checkbox" name="futbol" value="futbol"> futbol
+                    <input type="checkbox" name="patinaje" value="patinaje"> patinaje
+                </fieldset>
+            </div>
+            <div>
+                <ladel for="fecha"> fecha de nacimiento </ladel>
+                <input type="date" name="fecha de nacimiento" value="fecha de nacimiento">
+            </div>
+            <br>
+            <div>
+                <ladel for="pais"> pais de nacimiento </ladel>
+                <select name="pais" id="pais">
+                    <option value="colombia">colombia</option> 
+                    <option value="maxico">mexico</option> 
+                    <option value="peru">peru</option>
+                    <option value="canada">canada</option>  
+                </select>
+            </div>
+            <div>
+                <label for="EMAIL">IGRESE SU EMAIL</label><br>
+                <input id="EMAIL" type="email">
+            </div>
+            <div>
+                <label for="CONTRASEÑA">IGRESE SU CONTRASEÑA</label><br>
+                <input id="CONTRASEÑA" type="password">
+            </div>
+            <div>
+                <label for="MENSAJE">IGRESE SU MENSAJE</label><br>
+                <textarea id="MENSAJE" id="mensaje"> escriba su mensaje:</textarea>
+            </div>
+            <div>
+                <label for="documento">IGRESE SU DOCUMENTO</label><br>
+                <input type="file" name="documento" id="documento">
+            </div>
+            <button>REGISRAR</button>
+
+        </section>
+        <section>
+            <h1>multimedia</h1>
+            <article class="imagen">
+                <img class="titulo" src="img/pexels-suzyhazelwood-3695297.jpg" alt="imagen">
+            </article>
+        </section>
+        <section>
+            <article class="border">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/pWpukvOwi_k?si=daSd5iUqOgDJkCDs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </article>
+        </section>
+        <section class="imagen">
+            <audio>
+
+            </audio>
+        </section>
+        <section class="imagen bordertitulo">
+            <h1>bordes</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur
+                 adipisicing elit. Minus totam reprehenderit 
+                 labore saepe? Ut harum eaque iure, ea esse deleniti
+                  numquam nobis culpa repudiandae accusantium quod, perspiciatis 
+                  voluptate recusandae ex?</p>
+        </section>
+        <section class="shadow image">
+            <h1>bordes</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur
+                adipisicing elit. Minus totam reprehenderit 
+                labore saepe? Ut harum eaque iure, ea esse deleniti
+                numquam nobis culpa repudiandae accusantium quod, perspiciatis 
+                voluptate recusandae ex?</p>
         </section>
         <footer class="footer">
             <p> here is quote from WWf website:</p>

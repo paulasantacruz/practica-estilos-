@@ -1,5 +1,6 @@
  body {
      background-color: rgb(161, 230, 230);
+     background-image: url(img/noche.jpg);
  }
  
  .header {
@@ -39,3 +40,46 @@
  .item {
      list-style: none;
  }
+ 
+ .form {
+     width: 40vw;
+     margin: auto;
+     border: 1px solid green;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     text-align: center;
+ }
+ 
+ .flez {
+     display: flex;
+     flex-direction: column;
+ }
+ .imagen{
+    width: 50%;
+    border: 1px solid red;
+    margin: auto;
+ }
+.titulo{
+    max-width: 10%;
+    min-width: 20%;
+}
+.bordertitulo{
+    border: 1px olid greenyellow;
+    border-top: 2px salmon ;
+    border-bottom: 5px double blue;
+    border-left: dashed orangered;
+}
+.shadow{
+    border: 40px olid goldenrod;
+    box-shadow:  5px 5px 40px 20px black;
+}
+.shadow{
+    text-shadow: 3px 3px 0px plum;
+}
+.fondo{
+    background-image:url(img/noche.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed ;
+}
